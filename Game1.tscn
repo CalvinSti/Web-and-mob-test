@@ -4,7 +4,7 @@
 [ext_resource type="Script" path="res://game_1.gd" id="1_oypch"]
 [ext_resource type="Script" path="res://Back.gd" id="1_u6xvc"]
 [ext_resource type="Texture2D" uid="uid://yv1yqtvki7p8" path="res://Untitled.png" id="2_hsvbx"]
-[ext_resource type="PackedScene" path="res://balls.tscn" id="6_q1r51"]
+[ext_resource type="PackedScene" uid="uid://mrbpkt08tyvm" path="res://balls.tscn" id="6_q1r51"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_bojxu"]
 

@@ -1,7 +1,6 @@
-[gd_scene load_steps=6 format=3 uid="uid://b8b7oneqj14sg"]
+[gd_scene load_steps=5 format=3 uid="uid://b8b7oneqj14sg"]
 
 [ext_resource type="Texture2D" uid="uid://yv1yqtvki7p8" path="res://Untitled.png" id="1_72hco"]
-[ext_resource type="Script" path="res://main_menu.gd" id="1_deoii"]
 [ext_resource type="Script" path="res://texture_button1.gd" id="2_eoor2"]
 [ext_resource type="Script" path="res://game_2_button.gd" id="4_8ktpd"]
 [ext_resource type="Script" path="res://game_3_button.gd" id="5_xrxiy"]
@@ -16,7 +15,6 @@ offset_right = -30.0
 grow_horizontal = 2
 grow_vertical = 2
 scale = Vector2(1.01792, 1.19466)
-script = ExtResource("1_deoii")
 
 [node name="Game1 Button" type="Button" parent="."]
 z_index = 2
