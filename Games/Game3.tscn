@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://ca7556hjlyyv7"]
+
+[ext_resource type="Script" path="res://Games/Mouse_Movement.gd" id="1_a2r7g"]
+[ext_resource type="Script" path="res://Games/Back.gd" id="1_milwl"]
+[ext_resource type="Texture2D" uid="uid://bf7bnie03dhuj" path="res://Games/image.png" id="2_unfl5"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_e2sib"]
+
+[node name="Game3" type="Node2D"]
+
+[node name="Button2" type="Button" parent="."]
+offset_left = 14.0
+offset_top = 13.0
+offset_right = 67.0
+offset_bottom = 44.0
+scale = Vector2(1.20205, 0.969047)
+text = "Menu"
+script = ExtResource("1_milwl")
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+position = Vector2(462, 198)
+script = ExtResource("1_a2r7g")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+scale = Vector2(4.00461, -4.85223)
+shape = SubResource("CircleShape2D_e2sib")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+scale = Vector2(0.08607, 0.08607)
+texture = ExtResource("2_unfl5")

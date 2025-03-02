@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://bt8x2f22sjn5n"]
+
+[ext_resource type="Texture2D" uid="uid://bf7bnie03dhuj" path="res://Games/image.png" id="1_81h5p"]
+[ext_resource type="Script" path="res://breek.gd" id="1_sxgyo"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ohkgm"]
+
+[node name="Breek" type="RigidBody2D"]
+rotation = 0.00732886
+gravity_scale = 0.0
+script = ExtResource("1_sxgyo")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(1.91137, 1.91137)
+shape = SubResource("RectangleShape2D_ohkgm")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.116389, 0.103056)
+texture = ExtResource("1_81h5p")

@@ -1,0 +1,46 @@
+[gd_scene load_steps=3 format=3 uid="uid://vdgnlrb4h4w4"]
+
+[ext_resource type="PackedScene" uid="uid://bxqfxr63qj0tk" path="res://balls.tscn" id="1_3xr1l"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_thu8l"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 6
+size_flags_vertical = 6
+metadata/_edit_use_anchors_ = true
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+scale = Vector2(1.00106, 1.00106)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(1.99788, -6.99259)
+rotation = 3.14159
+scale = Vector2(157.269, -0.0834802)
+shape = SubResource("RectangleShape2D_thu8l")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(-11.9873, 0)
+rotation = 1.5708
+scale = Vector2(157.269, -0.0834802)
+shape = SubResource("RectangleShape2D_thu8l")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(1150.78, 668.292)
+rotation = 3.14159
+scale = Vector2(157.269, -0.0834802)
+shape = SubResource("RectangleShape2D_thu8l")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(1174.76, 664.296)
+rotation = 1.5708
+scale = Vector2(158.009, 1.57206)
+shape = SubResource("RectangleShape2D_thu8l")
+
+[node name="Balls" parent="." instance=ExtResource("1_3xr1l")]
+position = Vector2(-97, 258)

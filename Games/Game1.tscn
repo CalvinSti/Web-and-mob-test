@@ -1,0 +1,68 @@
+[gd_scene load_steps=8 format=3 uid="uid://cxfuu6d0y1ycv"]
+
+[ext_resource type="Script" path="res://Games/Mouse_Movement.gd" id="1_83s6w"]
+[ext_resource type="Script" path="res://Games/game_1.gd" id="1_oypch"]
+[ext_resource type="Script" path="res://Games/Back.gd" id="1_u6xvc"]
+[ext_resource type="Texture2D" uid="uid://yv1yqtvki7p8" path="res://Untitled.png" id="2_hsvbx"]
+[ext_resource type="PackedScene" uid="uid://bxqfxr63qj0tk" path="res://balls.tscn" id="6_q1r51"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bojxu"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_royf6"]
+
+[node name="Game1" type="Node2D"]
+script = ExtResource("1_oypch")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 14.0
+offset_top = 13.0
+offset_right = 67.0
+offset_bottom = 44.0
+scale = Vector2(1.20205, 0.969047)
+text = "Menu"
+script = ExtResource("1_u6xvc")
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+position = Vector2(944, 880)
+scale = Vector2(1.62522, -0.255383)
+motion_mode = 1
+wall_min_slide_angle = 3.14159
+script = ExtResource("1_83s6w")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+scale = Vector2(4.00461, -4.85223)
+shape = SubResource("RectangleShape2D_bojxu")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+scale = Vector2(0.08607, 0.08607)
+texture = ExtResource("2_hsvbx")
+
+[node name="Balls" parent="." instance=ExtResource("6_q1r51")]
+position = Vector2(186, 329)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+scale = Vector2(1.00106, 1.00106)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(420.554, -10.9884)
+rotation = 3.14159
+scale = Vector2(1164.6, 0.861849)
+shape = SubResource("RectangleShape2D_royf6")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(-11.9873, 0)
+rotation = 1.5708
+scale = Vector2(163.202, -1.18267)
+shape = SubResource("RectangleShape2D_royf6")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(1144.79, 1100.83)
+rotation = 3.14159
+scale = Vector2(170.488, -1.98878)
+shape = SubResource("RectangleShape2D_royf6")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(1992.89, 683.276)
+rotation = 1.5708
+scale = Vector2(158.009, 1.57206)
+shape = SubResource("RectangleShape2D_royf6")

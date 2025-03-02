@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://bxqfxr63qj0tk"]
+
+[ext_resource type="Script" path="res://Games/ballphysics.gd" id="1_2lfby"]
+[ext_resource type="Texture2D" uid="uid://blwreifwh7muw" path="res://png-transparent-8-bit-pokemon-pixel-art-poke-ball-others-rectangle-bitcoin-pokemon-thumbnail.png" id="2_tibqx"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_q5x13"]
+
+[node name="Balls" type="CharacterBody2D"]
+position = Vector2(-488, -89)
+script = ExtResource("1_2lfby")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(488, 89)
+scale = Vector2(1.9765, 1.9765)
+shape = SubResource("CircleShape2D_q5x13")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(488, 89)
+scale = Vector2(0.111276, 0.111276)
+texture = ExtResource("2_tibqx")
