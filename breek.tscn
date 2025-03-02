@@ -1,6 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://bt8x2f22sjn5n"]
+[gd_scene load_steps=4 format=3 uid="uid://civxcwsonc765"]
 
-[ext_resource type="Texture2D" uid="uid://bf7bnie03dhuj" path="res://Games/image.png" id="1_81h5p"]
+[ext_resource type="Texture2D" uid="uid://bf7bnie03dhuj" path="res://image.png" id="1_81h5p"]
 [ext_resource type="Script" path="res://breek.gd" id="1_sxgyo"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ohkgm"]

@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://ca7556hjlyyv7"]
 
-[ext_resource type="Script" path="res://Games/Mouse_Movement.gd" id="1_a2r7g"]
-[ext_resource type="Script" path="res://Games/Back.gd" id="1_milwl"]
-[ext_resource type="Texture2D" uid="uid://bf7bnie03dhuj" path="res://Games/image.png" id="2_unfl5"]
+[ext_resource type="Script" path="res://Mouse_Movement.gd" id="1_a2r7g"]
+[ext_resource type="Script" path="res://Back.gd" id="1_milwl"]
+[ext_resource type="Texture2D" uid="uid://bf7bnie03dhuj" path="res://image.png" id="2_unfl5"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_e2sib"]
 

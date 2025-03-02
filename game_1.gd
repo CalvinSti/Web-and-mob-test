@@ -1,6 +1,6 @@
 extends Node2D
 
-@onready var brickObject = preload("res://breek.tscn")
+@onready var brickObject = preload("breek.tscn")
 
 var columns = 34
 var rows = 7
