@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://drh3l1g3uxjod"]
+[gd_scene load_steps=4 format=3 uid="uid://mrbpkt08tyvm"]
 
 [ext_resource type="Script" path="res://ballphysics.gd" id="1_2lfby"]
 [ext_resource type="Texture2D" uid="uid://blwreifwh7muw" path="res://png-transparent-8-bit-pokemon-pixel-art-poke-ball-others-rectangle-bitcoin-pokemon-thumbnail.png" id="2_tibqx"]

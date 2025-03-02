@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://cxrspxcwgrxf5"]
+[gd_scene load_steps=5 format=3 uid="uid://bvvji6mkten1n"]
 
 [ext_resource type="Script" path="res://Mouse_Movement.gd" id="1_0ngfa"]
 [ext_resource type="Script" path="res://Back.gd" id="1_hwkpk"]
