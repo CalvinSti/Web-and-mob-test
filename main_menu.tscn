@@ -10,11 +10,13 @@ layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -30.0
-offset_right = -30.0
+offset_left = -412.0
+offset_top = -280.0
+offset_right = -412.0
+offset_bottom = -280.0
 grow_horizontal = 2
 grow_vertical = 2
-scale = Vector2(1.01792, 1.19466)
+scale = Vector2(1.41757, 1.6637)
 
 [node name="Game1 Button" type="Button" parent="."]
 z_index = 2
